@@ -1,0 +1,116 @@
+
+ScanDefinition = { Label = "Max_211210027.hdr"; Type = "Image Scan"; Flags = "Image"; Dwell = 1;
+	Regions = (1,
+{
+			PAxis = { Name = "Sample X"; Unit = "um"; Min = 2304.8007; Max = 2309.8007; Dir = 1;
+				Points = (100, 2304.8007, 2304.8507, 2304.9007, 2304.9507, 2305.0007, 2305.0507, 2305.1007, 2305.1507, 2305.2007, 2305.2507, 2305.3007, 2305.3507, 2305.4007, 2305.4507, 2305.5007, 2305.5507, 2305.6007, 2305.6507, 2305.7007, 2305.7507, 2305.8007, 2305.8507, 2305.9007, 2305.9507, 2306.0007, 2306.0507, 2306.1007, 2306.1507, 2306.2007, 2306.2507, 2306.3007, 2306.3507, 2306.4007, 2306.4507, 2306.5007, 2306.5507, 2306.6007, 2306.6507, 2306.7007, 2306.7507, 2306.8007, 2306.8507, 2306.9007, 2306.9507, 2307.0007, 2307.0507, 2307.1007, 2307.1507, 2307.2007, 2307.2507, 2307.3007, 2307.3507, 2307.4007, 2307.4507, 2307.5007, 2307.5507, 2307.6007, 2307.6507, 2307.7007, 2307.7507, 2307.8007, 2307.8507, 2307.9007, 2307.9507, 2308.0007, 2308.0507, 2308.1007, 2308.1507, 2308.2007, 2308.2507, 2308.3007, 2308.3507, 2308.4007, 2308.4507, 2308.5007, 2308.5507, 2308.6007, 2308.6507, 2308.7007, 2308.7507, 2308.8007, 2308.8507, 2308.9007, 2308.9507, 2309.0007, 2309.0507, 2309.1007, 2309.1507, 2309.2007, 2309.2507, 2309.3007, 2309.3507, 2309.4007, 2309.4507, 2309.5007, 2309.5507, 2309.6007, 2309.6507, 2309.7007, 2309.7507);
+};
+
+			QAxis = { Name = "Sample Y"; Unit = "um"; Min = 4516.5418; Max = 4521.5418; Dir = 1;
+				Points = (100, 4516.5418, 4516.5918, 4516.6418, 4516.6918, 4516.7418, 4516.7918, 4516.8418, 4516.8918, 4516.9418, 4516.9918, 4517.0418, 4517.0918, 4517.1418, 4517.1918, 4517.2418, 4517.2918, 4517.3418, 4517.3918, 4517.4418, 4517.4918, 4517.5418, 4517.5918, 4517.6418, 4517.6918, 4517.7418, 4517.7918, 4517.8418, 4517.8918, 4517.9418, 4517.9918, 4518.0418, 4518.0918, 4518.1418, 4518.1918, 4518.2418, 4518.2918, 4518.3418, 4518.3918, 4518.4418, 4518.4918, 4518.5418, 4518.5918, 4518.6418, 4518.6918, 4518.7418, 4518.7918, 4518.8418, 4518.8918, 4518.9418, 4518.9918, 4519.0418, 4519.0918, 4519.1418, 4519.1918, 4519.2418, 4519.2918, 4519.3418, 4519.3918, 4519.4418, 4519.4918, 4519.5418, 4519.5918, 4519.6418, 4519.6918, 4519.7418, 4519.7918, 4519.8418, 4519.8918, 4519.9418, 4519.9918, 4520.0418, 4520.0918, 4520.1418, 4520.1918, 4520.2418, 4520.2918, 4520.3418, 4520.3918, 4520.4418, 4520.4918, 4520.5418, 4520.5918, 4520.6418, 4520.6918, 4520.7418, 4520.7918, 4520.8418, 4520.8918, 4520.9418, 4520.9918, 4521.0418, 4521.0918, 4521.1418, 4521.1918, 4521.2418, 4521.2918, 4521.3418, 4521.3918, 4521.4418, 4521.4918);
+};
+});
+
+	StackAxis = { Name = "Energy"; Unit = "eV"; Min = 705.991; Max = 705.991; Dir = -1;
+		Points = (1, 705.9910);
+};
+
+	Channels = (1,
+{ Name = "PMT"; Unit = "Hz";});
+};
+ Time = "2021 December 10 18:04:13"; BeamFeedback = false; ShutterAutomatic = true;
+Channels = (1,
+{ ID = 6; Type = 0; Name = "PMT"; DeviceNumber = 2; UnitName = "Hz"; LinearCoefficient = 1; ConstantCoefficient = 0; ProcessString = "I";});
+
+Energy = { Name = "Energy"; LastPosition = 705.98251; Status = 0; ControllerID = 303;};
+
+SampleX = { Name = "Sample X"; LastPosition = 2304.9182; Status = 1; ControllerID = 140;};
+
+SampleY = { Name = "Sample Y"; LastPosition = 4515.8584; Status = 1; ControllerID = 141;};
+
+SampleCoarseX = { Name = "CoarseX"; LastPosition = 2306.2; Status = 1; ControllerID = 231;};
+
+SampleCoarseY = { Name = "CoarseY"; LastPosition = 4509.35; Status = 1; ControllerID = 232;};
+
+SampleCoarseZ = { Name = "CoarseZ"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+SampleFineX = { Name = "FineX-PI"; LastPosition = -1.3998; Status = 1; ControllerID = 170;};
+
+SampleFineY = { Name = "FineY-PI"; LastPosition = -1.3994; Status = 0; ControllerID = 174;};
+
+ZonePlateZ = { Name = "ZonePlate"; LastPosition = -9071.8045; Status = 0; ControllerID = 292;};
+
+OSAX = { Name = "OSAX"; LastPosition = 229.20028; Status = 0; ControllerID = 304;};
+
+OSAY = { Name = "OSAY"; LastPosition = -67.214304; Status = 0; ControllerID = 305;};
+
+OsaZ = { Name = "OSAZ"; LastPosition = -1499.998; Status = 0; ControllerID = 223;};
+
+DetectorX = { Name = "DetectorX"; LastPosition = 0; Status = 0; ControllerID = 295;};
+
+DetectorY = { Name = "DetectorY"; LastPosition = -0; Status = 0; ControllerID = 294;};
+
+DetectorZ = { Name = "DetectorZ"; LastPosition = 2000; Status = 0; ControllerID = 293;};
+
+AUX1 = { Name = "AUX1"; LastPosition = 10; Status = 1; ControllerID = 0;};
+
+AUX2 = { Name = "AUX2"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+AUX3 = { Name = "Window_Z"; LastPosition = 40000; Status = 0; ControllerID = 308;};
+
+AUX4 = { Name = "AUX4"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+AUX5 = { Name = "AUX5"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+AUX6 = { Name = "AUX6"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+AUX7 = { Name = "AUX7"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+AUX8 = { Name = "AUX8"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+ExitVSlit = { Name = "Slit Horizontal"; LastPosition = 4.085; Status = 0; ControllerID = 299;};
+
+ExitHSlit = { Name = "Slit Vertical"; LastPosition = 4.0525; Status = 0; ControllerID = 298;};
+
+EPU_Polarization = { Name = "EPU Polarization"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+EPUGap = { Name = "EPU Gap"; LastPosition = 19.812053; Status = 0; ControllerID = 301;};
+
+EPU_Z = { Name = "EPU Phase"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+Harmonics = { Name = "Harmonics"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+Cff = { Name = "Cff"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+MonoMirrorAngle = { Name = "MonoMirrorAngle"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+MonoGratingAngle = { Name = "MonoGratingAngle"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+EntranceSlit = { Name = "M1 Angle"; LastPosition = -703.45385; Status = 0; ControllerID = 291;};
+
+M3Angle = { Name = "M3Angle"; LastPosition = 2081.9419; Status = 0; ControllerID = 302;};
+
+Grating = { Name = "Grating"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+SampleFineZ = { Name = "Sample Z"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+ZonePlateX = { Name = "Zone Plate X"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+ZonePlateY = { Name = "Zone Plate Y"; LastPosition = 0; Status = 1; ControllerID = 0;};
+
+FineX_PI = { Name = "FineX-PI"; LastPosition = 61.5796; Status = 1; ControllerID = 0;};
+
+FineY_PI = { Name = "FineY-PI"; LastPosition = 50.0004; Status = 1; ControllerID = 0;};
+
+FineX_ACS = { Name = "FineX_ACS"; LastPosition = -5164.4869; Status = 1; ControllerID = 0;};
+
+FineY_ACS = { Name = "FineY_ACS"; LastPosition = -488.9633; Status = 1; ControllerID = 0;};
+ StorageRingCurrent = 298.962; EPUPhase = 0; Polarization = 0; PMT_CounterDivider = 10; Ao = -458.7;
+ImageScan = { ScanType = "Image (Line - unidirection)"; Stage = "Automatic"; Shutter = "Automatic"; SingleEnergy = true;
+	EnergyRegions = (1,
+{ StartEnergy = 705.991; EndEnergy = 714.991; Range = 9; Step = 1; Points = 10; DwellTime = 1;});
+ PointDelay = 0.01; LineDelay = 50; AccelDist = 0.502; MultipleRegions = true;
+	SpatialRegions = (1,
+{ CentreXPos = 2307.3007; CentreYPos = 4519.0418; XRange = 5; YRange = 5; XStep = 0.05; YStep = 0.05; XPoints = 100; YPoints = 100; SquareRegion = false; SquarePixels = false;});
+};
+Image000_0 = {StorageRingCurrent = 298.96; Energy = 705.98; Time = "2021 Dec 10 18:04:13"; ZP_dest= -9071.70; ZP_error = -0.10;};
