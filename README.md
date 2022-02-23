@@ -1,4 +1,4 @@
-# XMCD_softimax_FePt
+# XMCD softimax FePt
 Takes reconstruction files from ptypy and STXM and performs XMCD on them for analysis
 
 The idea of the project is to compare magnetic images (XMCD) obtained from STXM from those obtained with super resolution using ptychography. 
